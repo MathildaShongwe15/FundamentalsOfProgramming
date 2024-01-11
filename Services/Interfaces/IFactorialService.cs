@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Services.Interfaces
 {
-    public interface IFactorial
+    public interface IFactorialService
     {
-
+        public int GetFactorial(int num1);
     }
 }

@@ -14,6 +14,7 @@ namespace FundamentalsOfProgramming
             builder.Services.AddScoped<IImageService, ImageService>();
             builder.Services.AddScoped<IImageAdapter, ImageAdapter>();
             builder.Services.AddScoped<IReverseStringService, ReverseStringService>();
+            builder.Services.AddScoped<IFactorialService, FactorialService>();
 
 
             builder.Services.AddControllers();
