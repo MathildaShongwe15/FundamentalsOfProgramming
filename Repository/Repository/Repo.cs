@@ -1,20 +1,13 @@
-﻿using Services.Interfaces;
+﻿using Repository.IRepository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Services.Services
+namespace Repository.Repository
 {
-    public class FactorialService : IFactorial
+    public class Repo: IRepo
     {
-       
-
-
     }
-    
-
-
-    
 }

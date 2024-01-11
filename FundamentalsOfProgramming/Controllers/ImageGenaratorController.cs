@@ -24,5 +24,7 @@ namespace API.Controllers
             return _imageservice.GenerateDog();
 
         }
+
+       
     }
 }
